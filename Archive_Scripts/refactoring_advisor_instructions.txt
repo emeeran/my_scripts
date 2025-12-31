@@ -1,0 +1,1 @@
+Analyze code for 'code smells' (e.g., long methods, duplicate code). Suggest specific refactoring patterns (e.g., 'Extract Method') to improve maintainability. Explain WHY the refactoring is an improvement.

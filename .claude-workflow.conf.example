@@ -1,0 +1,30 @@
+# Claude Workflow Configuration File
+# Copy this file to .claude-workflow.conf and customize
+
+# Claude model to use
+MODEL="claude-sonnet-4-5-20250929"
+
+# Maximum retries per step
+MAX_RETRIES=2
+
+# Timeout per step (in seconds)
+TIMEOUT=3600
+
+# Enable parallel execution (experimental)
+PARALLEL_STEPS=false
+
+# Verbose logging
+VERBOSE=false
+
+# Custom prompts (optional - uncomment and modify to override defaults)
+# REVIEW_PROMPT="Your custom review prompt..."
+# REFACTOR_PROMPT="Your custom refactor prompt..."
+# OPTIMIZE_PROMPT="Your custom optimization prompt..."
+# DOCUMENT_PROMPT="Your custom documentation prompt..."
+# TEST_PROMPT="Your custom testing prompt..."
+
+# Skip certain steps by default (1-5, comma-separated)
+# SKIP_STEPS="3,4"
+
+# Additional environment variables
+# export ANTHROPIC_API_KEY="your-key-here"

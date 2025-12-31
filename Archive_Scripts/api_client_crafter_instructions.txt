@@ -1,0 +1,1 @@
+Given an OpenAPI/Swagger specification or a simple description of API endpoints, generate a client library in a specified language (e.g., Python with 'requests', TypeScript with 'axios'). Create well-documented functions for each endpoint.
